@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vusion/vukoa-bodyParsePath.git"
+    "url": "git+https://github.com/vusion/vukoa-bodyParsePatch.git"
   },
   "keywords": [
     "vusion",
@@ -19,9 +19,9 @@
   "author": "lgfshr@163.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vusion/vukoa-bodyParsePath/issues"
+    "url": "https://github.com/vusion/vukoa-bodyParsePatch/issues"
   },
-  "homepage": "https://github.com/vusion/vukoa-bodyParsePath#readme",
+  "homepage": "https://github.com/vusion/vukoa-bodyParsePatch#readme",
   "dependencies": {
     "co-body": "^5.1.1",
     "copy-to": "^2.0.1",
