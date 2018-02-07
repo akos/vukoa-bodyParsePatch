@@ -1,0 +1,28 @@
+{
+  "name": "vukoa-bodyparsepath",
+  "version": "0.0.1",
+  "description": "process request format for vukoa",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vusion/Vukoa-bodyParsePath.git"
+  },
+  "keywords": [
+    "vusion",
+    "vukoa",
+    "koa",
+    "body"
+  ],
+  "author": "lgfshr@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vusion/Vukoa-bodyParsePath/issues"
+  },
+  "homepage": "https://github.com/vusion/Vukoa-bodyParsePath#readme",
+  "dependencies": {
+    "is-type-of": "^1.2.0"
+  }
+}
