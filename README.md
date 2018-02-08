@@ -15,7 +15,13 @@ var Koa = require('koa');
 var bodyParsePatch = require('vukoa-bodyparsepatch');
 
 var app = new Koa();
-app.use(bodyParsePatch());
+app.use(bodyParsePatch({
+    multipart: true,
+    keepExtensions: true,
+    strict: false,
+    parsePatch: true,
+    enableTypes: ['json', 'form', 'text'],
+}));
 
 app.use(async ctx => {
   // the parsed body will store in ctx.request.body
