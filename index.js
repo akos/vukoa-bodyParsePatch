@@ -21,7 +21,7 @@ module.exports = function bodyParsePatch(options) {
                 multipart = false;
             }
             if (ctx.request.rawBody === undefined) ctx.request.rawBody = res.raw;
-            await parsePatch(ctx, multipart);
+            if(options.parsePatch)await parsePatch(ctx, multipart);
         } catch (err) {
             if (onerror) {
                 onerror(err, ctx);

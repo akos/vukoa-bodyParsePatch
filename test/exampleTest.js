@@ -24,6 +24,8 @@ app.use(bodyParsePatch({
     multipart: true,
     keepExtensions: true,
     strict: false,
+    parsePatch: true,
+    enableTypes: ['json', 'form', 'text'],
 }));
 app.use(async ctx => {
     ctx.body = 'Hello World';
