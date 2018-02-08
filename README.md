@@ -77,7 +77,7 @@ app.use(bodyParsePatch());
 You can set enableTypes: ['text'] you will get
 
 - if raw body can transfer Json, you will get ctx.request.rawBody and ctx.request.fields = JSON.parse(ctx.request.rawBody)
-- else you only get ctx.request.rawBody
+- else you can only get ctx.request.rawBody
 
 ## Koa 2 Support
 
