@@ -1,13 +1,5 @@
 # vukoa-bodyParsePath
 
-
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Coveralls][coveralls-image]][coveralls-url]
-[![David deps][david-image]][david-url]
-[![node version][node-image]][node-url]
-[![Gittip][gittip-image]][gittip-url]
-
 process request format for vukoa or koa, base on [co-body](https://github.com/tj/co-body). support 'from-data', 'x-www-form-urlencoded', 'raw' type body.
 
 ## Install
