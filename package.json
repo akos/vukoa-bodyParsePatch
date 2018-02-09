@@ -1,6 +1,6 @@
 {
   "name": "vukoa-bodyparsepatch",
-  "version": "0.0.8",
+  "version": "0.0.7",
   "description": "process request format for vukoa",
   "main": "index.js",
   "scripts": {
