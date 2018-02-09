@@ -28,7 +28,11 @@ app.use(bodyParsePatch({
     enableTypes: ['json', 'form', 'text'],
 }));
 app.use(async ctx => {
-    ctx.body = 'Hello World';
+    ctx.body = {
+        query: ctx.request.query,
+        fields: ctx.request.fields,
+        raw: ctx.request.rawBody,
+    };
 });
 
-app.listen(3000);
+app.listen(5000);
