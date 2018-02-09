@@ -4,7 +4,7 @@
   "description": "process request format for vukoa",
   "main": "index.js",
   "scripts": {
-    "test": "node test/exampleTest.js  "
+    "test": "node test/test.js  "
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
     "extend-shallow": "^3.0.2",
     "formidable": "^1.1.1",
     "is-type-of": "^1.2.0",
-    "koa": "^2.4.1"
+    "koa": "^2.4.1",
+    "mukla": "^0.4.9",
+    "supertest": "^3.0.0"
   }
 }

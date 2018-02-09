@@ -14,7 +14,7 @@ module.exports = function bodyParsePatch(options) {
         if (ctx.request.body !== undefined) return await next();
         if (ctx.disableBodyParser) return await next();
         try {
-            processMethod.setParsers(ctx);
+            processMethod.setParsers(ctx);//init
             const res = await processMethod.parseBody(ctx, options);
             if(res !== 'multipart'){
                 ctx.request.body = 'parsed' in res ? res.parsed : {};
